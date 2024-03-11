@@ -15,6 +15,10 @@ public class Principal extends javax.swing.JFrame {
     private void initComponents() {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Calculator");
+        setMinimumSize(new java.awt.Dimension(400, 600));
+        setName("principal"); // NOI18N
+        setPreferredSize(new java.awt.Dimension(400, 600));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -24,7 +28,7 @@ public class Principal extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGap(0, 600, Short.MAX_VALUE)
         );
 
         pack();
