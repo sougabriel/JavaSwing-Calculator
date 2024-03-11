@@ -26,31 +26,244 @@ public class SimpleCalculator extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        bt_dot = new javax.swing.JButton();
+        bt_enter = new javax.swing.JButton();
+        bt_0 = new javax.swing.JButton();
+        bt_1 = new javax.swing.JButton();
+        bt_2 = new javax.swing.JButton();
+        bt_3 = new javax.swing.JButton();
+        bt_4 = new javax.swing.JButton();
+        bt_5 = new javax.swing.JButton();
+        bt_6 = new javax.swing.JButton();
+        bt_7 = new javax.swing.JButton();
+        bt_8 = new javax.swing.JButton();
+        bt_9 = new javax.swing.JButton();
+        bt_clear = new javax.swing.JButton();
+        bt_back = new javax.swing.JButton();
+        bt_multiplication = new javax.swing.JButton();
+        bt_division = new javax.swing.JButton();
+        bt_subtraction = new javax.swing.JButton();
+        bt_addition = new javax.swing.JButton();
+        display = new javax.swing.JLabel();
 
-        jLabel1.setFont(new java.awt.Font("Phetsarath OT", 0, 18)); // NOI18N
-        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        bt_dot.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_dot.setText(",");
+        bt_dot.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_dot.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_dot.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_enter.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_enter.setText("Enter");
+        bt_enter.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_enter.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_enter.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_0.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_0.setText("0");
+        bt_0.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_0.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_0.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_1.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_1.setText("1");
+        bt_1.setToolTipText("");
+        bt_1.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_1.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_1.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_2.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_2.setText("2");
+        bt_2.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_2.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_2.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_3.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_3.setText("3");
+        bt_3.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_3.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_3.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_4.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_4.setText("4");
+        bt_4.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_4.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_4.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_5.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_5.setText("5");
+        bt_5.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_5.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_5.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_6.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_6.setText("6");
+        bt_6.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_6.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_6.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_7.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_7.setText("7");
+        bt_7.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_7.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_7.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_8.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_8.setText("8");
+        bt_8.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_8.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_8.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_9.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_9.setText("9");
+        bt_9.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_9.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_9.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_clear.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_clear.setText("clear");
+        bt_clear.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_clear.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_clear.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_back.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_back.setText("back");
+        bt_back.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_back.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_back.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_multiplication.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_multiplication.setText("*");
+        bt_multiplication.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_multiplication.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_multiplication.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_division.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_division.setText("/");
+        bt_division.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_division.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_division.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_subtraction.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_subtraction.setText("-");
+        bt_subtraction.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_subtraction.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_subtraction.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        bt_addition.setFont(new java.awt.Font("Liberation Mono", 0, 16)); // NOI18N
+        bt_addition.setText("+");
+        bt_addition.setMaximumSize(new java.awt.Dimension(80, 80));
+        bt_addition.setMinimumSize(new java.awt.Dimension(80, 80));
+        bt_addition.setPreferredSize(new java.awt.Dimension(80, 80));
+
+        display.setFont(new java.awt.Font("Liberation Mono", 0, 18)); // NOI18N
+        display.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, 388, Short.MAX_VALUE)
-                .addContainerGap())
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(display, javax.swing.GroupLayout.PREFERRED_SIZE, 338, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(bt_0, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(bt_dot, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(bt_4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(bt_1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(bt_7, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(bt_2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(bt_3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(bt_5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(bt_6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(layout.createSequentialGroup()
+                                        .addComponent(bt_8, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(bt_9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                .addComponent(bt_addition, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(bt_subtraction, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(bt_division, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(bt_multiplication, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bt_enter, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bt_clear, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bt_back, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 42, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(552, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(display, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bt_multiplication, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bt_division, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bt_subtraction, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bt_addition, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bt_7, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bt_8, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bt_9, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bt_back, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(bt_4, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bt_5, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bt_6, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(bt_clear, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                    .addComponent(bt_enter, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(bt_1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bt_2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bt_3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(bt_dot, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(bt_0, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addContainerGap())
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel1;
+    private javax.swing.JButton bt_0;
+    private javax.swing.JButton bt_1;
+    private javax.swing.JButton bt_2;
+    private javax.swing.JButton bt_3;
+    private javax.swing.JButton bt_4;
+    private javax.swing.JButton bt_5;
+    private javax.swing.JButton bt_6;
+    private javax.swing.JButton bt_7;
+    private javax.swing.JButton bt_8;
+    private javax.swing.JButton bt_9;
+    private javax.swing.JButton bt_addition;
+    private javax.swing.JButton bt_back;
+    private javax.swing.JButton bt_clear;
+    private javax.swing.JButton bt_division;
+    private javax.swing.JButton bt_dot;
+    private javax.swing.JButton bt_enter;
+    private javax.swing.JButton bt_multiplication;
+    private javax.swing.JButton bt_subtraction;
+    private javax.swing.JLabel display;
     // End of variables declaration//GEN-END:variables
 }
