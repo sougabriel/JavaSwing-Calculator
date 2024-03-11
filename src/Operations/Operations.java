@@ -29,6 +29,17 @@ public class Operations {
             return 0;
         }
     }
+    
+    public double subtraction(double number1, double number2) {
+        setOperation("subtraction");
+        try {
+            double result = number1 - number2;
+            return result;
+        } catch (Exception e) {
+            this.errorMessage(e, this.operation);
+            return 0;
+        }
+    }
 
     private void errorMessage(Exception e, String operation) {
         String title;
