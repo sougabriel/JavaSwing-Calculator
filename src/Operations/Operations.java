@@ -52,6 +52,17 @@ public class Operations {
         }
     }
     
+    public double multiplication(double number1, double number2) {
+        setOperation("multiplication");
+        try {
+            double result = number1 * number2;
+            return result;
+        } catch (Exception e) {
+            this.errorMessage(e, this.operation);
+            return 0;
+        }
+    }
+    
     private void errorMessage(Exception e, String operation) {
         String title;
         switch (operation) {
