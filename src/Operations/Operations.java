@@ -25,7 +25,7 @@ public class Operations {
             double result = number1 + number2;
             return result;
         } catch (Exception e) {
-            errorMessage(e, this.operation);
+            this.errorMessage(e, this.operation);
             return 0;
         }
     }
